@@ -37,17 +37,19 @@
             // lbGemidelde
             // 
             this.lbGemidelde.FormattingEnabled = true;
-            this.lbGemidelde.ItemHeight = 15;
-            this.lbGemidelde.Location = new System.Drawing.Point(70, 12);
+            this.lbGemidelde.ItemHeight = 20;
+            this.lbGemidelde.Location = new System.Drawing.Point(80, 16);
+            this.lbGemidelde.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lbGemidelde.Name = "lbGemidelde";
-            this.lbGemidelde.Size = new System.Drawing.Size(120, 94);
+            this.lbGemidelde.Size = new System.Drawing.Size(137, 124);
             this.lbGemidelde.TabIndex = 0;
             // 
             // btGetal
             // 
-            this.btGetal.Location = new System.Drawing.Point(211, 83);
+            this.btGetal.Location = new System.Drawing.Point(241, 111);
+            this.btGetal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btGetal.Name = "btGetal";
-            this.btGetal.Size = new System.Drawing.Size(100, 23);
+            this.btGetal.Size = new System.Drawing.Size(114, 31);
             this.btGetal.TabIndex = 1;
             this.btGetal.Text = "Nieuwe getal";
             this.btGetal.UseVisualStyleBackColor = true;
@@ -55,29 +57,32 @@
             // 
             // tbAvg
             // 
-            this.tbAvg.Location = new System.Drawing.Point(211, 41);
+            this.tbAvg.Location = new System.Drawing.Point(241, 55);
+            this.tbAvg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbAvg.Name = "tbAvg";
-            this.tbAvg.Size = new System.Drawing.Size(100, 23);
+            this.tbAvg.ReadOnly = true;
+            this.tbAvg.Size = new System.Drawing.Size(114, 27);
             this.tbAvg.TabIndex = 2;
             // 
             // lbAvg
             // 
             this.lbAvg.AutoSize = true;
-            this.lbAvg.Location = new System.Drawing.Point(223, 12);
+            this.lbAvg.Location = new System.Drawing.Point(255, 16);
             this.lbAvg.Name = "lbAvg";
-            this.lbAvg.Size = new System.Drawing.Size(71, 15);
+            this.lbAvg.Size = new System.Drawing.Size(91, 20);
             this.lbAvg.TabIndex = 3;
             this.lbAvg.Text = "Gemiddelde";
             // 
             // Gemidemlde
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.lbAvg);
             this.Controls.Add(this.tbAvg);
             this.Controls.Add(this.btGetal);
             this.Controls.Add(this.lbGemidelde);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Gemidemlde";
             this.Text = "Gemidemlde";
             this.ResumeLayout(false);
